@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 30px;
+}
+h4 {
+    font-size: 22px;
+}
+h1, p, div, img, h4 {
+    margin: 0;
+}
+
+/*공통 부분*/
+.btn {
+    width: auto;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-black {
+    background: #444;
+    color: white;
+}
+.btn-black:hover {
+    color: lightskyblue;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+/*A영역*/
+.a-contents {
+    padding: 20px 20px 0 30px;
+    color: white;
+    background-image: linear-gradient(to bottom, #499add, #4e61c0);
+}
+
+.a-layout {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.a-left {
+    margin-top: 70px;
+}
+
+.a-right {
+    margin-top: 0;
+}
+
+.iphone {
+    width: 400px;
+    margin-top: 95px;
+}
+
+/*B영역*/
+.contents-b {
+   padding: 50px 0 50px 0;
+}
+
+/*C영역*/
+.contents-c {
+    background-color: #4e61c0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 60px 30px 50px 30px;
+}
+.service-items {
+    display: flex;
+}
+.service-items div {
+    width: 25%;
+}
+
+/*나머지 쓸데없는 디자인들*/
+.contents-c h5 {
+    margin-bottom: 0px;
+}
+.service-icon {
+    background: white;
+    color: #4e61c0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+/*D영역*/
+.contents-d {
+}
+.contents-d .title{
+
+}
+
+.img-container {
+    display: flex;
+}
+
+.img-container img {
+    width: 100%;
+    object-fit: cover; /* 비율 유지하면서 요소 채우기 */
+}
+
+.img-wrapper {
+    position: relative;
+    width: 50%;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+}
+
+.service-icon2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4e61c0;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+
+
